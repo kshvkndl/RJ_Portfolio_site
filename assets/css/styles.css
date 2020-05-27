@@ -49,7 +49,7 @@ Variables
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.151);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
@@ -197,9 +197,11 @@ Scroll
 /* navbar */
 .nav-bg{
   background: var(--clr-white);
+  box-shadow: var(--light-shadow);
 }
 .nav-bg .scroll-link{
   color: var(--clr-grey-1);
+  font-size: 0.9rem;
 }
 nav {
   background: var(--clr-white);
@@ -617,7 +619,7 @@ footer .social-links a{
 }
 
 footer .social-links a i{
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 footer .scroll-link{
@@ -633,7 +635,7 @@ footer .scroll-link{
 
 .isotope-nav {
   display: inline-block;
-  margin: 1.5rem 0 1.5rem;  
+  margin: 2.5rem 0 0.5rem;  
   width: 100%;
 }
 
